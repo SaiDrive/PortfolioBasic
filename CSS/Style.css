@@ -11,7 +11,7 @@ body{
     color: var(--light);
 }
 
-header{
+.left{
     background-image: url(./images/BackGroundImage.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -38,13 +38,16 @@ header nav{
             padding: 2rem 0;
             }
 .left{
-    padding: 1rem 0;
+    padding: 1rem;
+    max-width: 1152px;
+    margin: 0 auto;
 }
 
 .left h6{
 font-size: 1.6rem;
 color: var(--light);
 margin-bottom: 2rem;
+margin-top: 1rem;
 }
 .left h1{
     font-weight: 50;
