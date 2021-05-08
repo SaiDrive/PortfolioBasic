@@ -38,7 +38,9 @@ header nav{
             padding: 2rem 0;
             }
 .left{
-    padding: 115px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+
 }
 
 .left h6{
@@ -67,7 +69,7 @@ margin-bottom: 2rem;
    padding: 4px;
 }
 section{
-    padding: 6rem 0;
+    padding: 1rem 0;
 }
 section .about{
     margin-top: 0rem;
