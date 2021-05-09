@@ -15,14 +15,14 @@ body{
     background-image: url(./images/BackGroundImage.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: 101%;
     
 }
 .container{
     max-width:1152px;
-    height: 65px;
+    height: auto;
     padding:0 65px;
-    margin:0 auto;
+    margin: 0 auto;
     }
 header nav .nav a{
         color: var(--light);
@@ -69,10 +69,8 @@ margin-top: 1rem;
    border-color: var(--primary);
    padding: 4px;
 }
-section{
-    padding: 1rem 0;
-}
-section .about{
+
+.about{
     margin-top: 0rem;
     padding: 1rem 0;
 }
@@ -94,7 +92,7 @@ section .about{
 }
 .container h1:before, h1:after {
     content: "";
-    flex: 1 1;
+    flex: 0.4 0.4;
     border-bottom: 2px solid var(--text);
     margin: auto;
 }
